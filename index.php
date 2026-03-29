@@ -1,6 +1,6 @@
 <!-- Header Include -->
 <?php
-$pageTitle = "Creative Logo Design Company in USA | Business Logo Design";
+$pageTitle = "Creative Logo Design Company in USA | Business Logo Design by Wasi";
 $pageDescription = "We are a custom logo design company located in USA. We offer logo design and create memorable brand experience. Creative logo design for business, startups, startups companies and small businesses.";
 include 'include/header.php'; ?>
 
