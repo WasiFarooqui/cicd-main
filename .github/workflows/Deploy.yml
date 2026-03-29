@@ -25,9 +25,9 @@ jobs:
           set -e
 
           # Go to deployment directory
-          cd /var/www/html/cicd-own
+          cd /var/www/html/cicd-main
 
-          git config --global --add safe.directory /var/www/html/cicd-own
+          git config --global --add safe.directory /var/www/html/cicd-main
 
           # Save last successful commit
           LAST_COMMIT=$(git rev-parse HEAD)
@@ -42,7 +42,7 @@ jobs:
           }
 
           # Set ownership for Apache
-          sudo chown -R www-data:www-data /var/www/html/cicd-own
+          sudo chown -R www-data:www-data /var/www/html/cicd-main
 
           # Optional: restart Apache
           # systemctl restart apache2
