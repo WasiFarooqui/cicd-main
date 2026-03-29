@@ -17,7 +17,7 @@ include 'include/header.php'; ?>
                     if (isset($_GET['submitted']) && $_GET['submitted'] == 1) : ?>
                         <p class="th-alert">Thanks for getting in touch, your query will be answered shortly.</p>
                     <?php endif; ?>
-                    <h1 data-aos="fade-down" data-aos-duration="2000">Brand Building Made Easy <br> <span> With Business Logo Design</span></h1>
+                    <h1 data-aos="fade-down" data-aos-duration="2000">Brand Building Made Easy <br> <span> With Business Logo Design by Wasi</span></h1>
                     <h4>DISCUSS. DESIGN. DEVELOP. MARKET. GROW.</h4>
                     <p data-aos="fade-up" data-aos-duration="2000">Convert your product into a brand today to outsmart your competition and stay relevant in the market! <br> Business logo design is your trusted partner for complete and comprehensive digital solutions. We help you in building a solid and sustainable brand that makes you stand out from competition.</p>
                     <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary" data-aos="fade-up" data-aos-duration="3000">LET'S GET STARTED</a>
@@ -32,7 +32,7 @@ include 'include/header.php'; ?>
 <section class="portfolio">
     <div class="container">
         <div class="top-headings">
-            <h2 data-aos="fade-down" data-aos-duration="2000">Brand Creation made Simpler <br>Your Gateway to Digital Success</h2>
+            <h2 data-aos="fade-down" data-aos-duration="2000">Brand Creation made Simpler <br>Your Gateway to Digital Success by Wasi</h2>
             <p>Your digital presence today is what you need to preserve to survive in today’s world – and we are experts in that. We help you from A to Z by helping you build your brand name to your complete brand creation to pave your own success path.</p>
         </div>
         <div class="row portfolio-row-1">
