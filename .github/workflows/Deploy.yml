@@ -11,14 +11,14 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
     - name: Set up SSH Agent
-      uses: webfactory/ssh-agent@v0.10.0
+      uses: webfactory/ssh-agent@v0.9.0
       with:
         ssh-private-key: ${{ secrets.CICD_SSH_KEY }}
 
-     - name: Deploy Application
+    - name: Deploy Application
       run: |
         ssh -o StrictHostKeyChecking=no ubuntu@ec2-16-171-150-81.compute-1.amazonaws.com << 'EOF'
           sudo su -
