@@ -20,7 +20,7 @@ jobs:
 
     - name: Deploy Application
       run: |
-        ssh -o StrictHostKeyChecking=no ubuntu@ec2-16-171-150-81.compute-1.amazonaws.com << 'EOF'
+        ssh -o StrictHostKeyChecking=no ubuntu@ec2-16-171-150-81.eu-north-1.compute.amazonaws.com << 'EOF'
           sudo su -
           set -e
 
